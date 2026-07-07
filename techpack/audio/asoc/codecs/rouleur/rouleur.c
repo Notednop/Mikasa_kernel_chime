@@ -1677,9 +1677,9 @@ static const struct snd_kcontrol_new rouleur_snd_controls[] = {
 	SOC_SINGLE_EXT("HPHR_COMP Switch", SND_SOC_NOPM, 1, 1, 0,
 		rouleur_get_compander, rouleur_set_compander),
 
-	SOC_SINGLE_TLV("HPHL Volume", ROULEUR_ANA_HPHPA_L_GAIN, 0, 20, 1,
+	SOC_SINGLE_TLV("HPHL Volume", ROULEUR_ANA_HPHPA_L_GAIN, 0, 24, 1,
 					line_gain),
-	SOC_SINGLE_TLV("HPHR Volume", ROULEUR_ANA_HPHPA_R_GAIN, 0, 20, 1,
+	SOC_SINGLE_TLV("HPHR Volume", ROULEUR_ANA_HPHPA_R_GAIN, 0, 24, 1,
 					line_gain),
 	SOC_SINGLE_TLV("ADC1 Volume", ROULEUR_ANA_TX_AMIC1, 0, 8, 0,
 			analog_gain),

@@ -182,3 +182,10 @@
 		reg = <0x42>;
 	};
 };
+
+&rx_macro {
+    qcom,hph-pwr-mode = "LOHIFI";
+    qcom,hph-gnd-protection-enable;
+    qcom,rx-macro-high-definition;
+    qcom,hph-impedance-detect;
+};

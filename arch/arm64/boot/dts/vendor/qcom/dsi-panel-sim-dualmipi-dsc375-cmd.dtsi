@@ -101,7 +101,7 @@
 				qcom,mdss-dsi-v-front-porch = <8>;
 				qcom,mdss-dsi-v-pulse-width = <1>;
 				qcom,mdss-dsi-h-sync-pulse = <0>;
-				qcom,mdss-dsi-panel-framerate = <60>;
+				qcom,mdss-dsi-panel-framerate = <90>;
 
 				qcom,mdss-dsi-on-command = [
 					39 01 00 00 00 00 11 91 09 20 00 20 02
@@ -309,7 +309,7 @@
 				qcom,mdss-dsi-v-front-porch = <8>;
 				qcom,mdss-dsi-v-pulse-width = <1>;
 				qcom,mdss-dsi-h-sync-pulse = <0>;
-				qcom,mdss-dsi-panel-framerate = <60>;
+				qcom,mdss-dsi-panel-framerate = <90>;
 
 				qcom,mdss-dsi-on-command = [
 					39 01 00 00 00 00 11 91 09 20 00 20 02
@@ -635,7 +635,7 @@
 			};
 
 			timing@9 {
-				qcom,mdss-dsi-panel-framerate = <60>;
+				qcom,mdss-dsi-panel-framerate = <90>;
 				qcom,mdss-dsi-panel-width = <720>;
 				qcom,mdss-dsi-panel-height = <2560>;
 				qcom,mdss-dsi-h-front-porch = <100>;
@@ -1185,7 +1185,7 @@
 				qcom,mdss-dsi-v-front-porch = <8>;
 				qcom,mdss-dsi-v-pulse-width = <1>;
 				qcom,mdss-dsi-h-sync-pulse = <0>;
-				qcom,mdss-dsi-panel-framerate = <60>;
+				qcom,mdss-dsi-panel-framerate = <90>;
 
 				qcom,mdss-dsi-on-command = [
 					39 01 00 00 00 00 11 91 09 20 00 20 02
@@ -1289,7 +1289,7 @@
 				qcom,mdss-dsi-v-front-porch = <8>;
 				qcom,mdss-dsi-v-pulse-width = <1>;
 				qcom,mdss-dsi-h-sync-pulse = <0>;
-				qcom,mdss-dsi-panel-framerate = <60>;
+				qcom,mdss-dsi-panel-framerate = <90>;
 
 				qcom,mdss-dsi-on-command = [
 					39 01 00 00 00 00 11 91 09 20 00 20 02
