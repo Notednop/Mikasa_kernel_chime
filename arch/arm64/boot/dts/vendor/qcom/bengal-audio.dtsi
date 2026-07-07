@@ -192,3 +192,7 @@
     qcom,rx-macro-high-definition;
     qcom,hph-impedance-detect;
 };
+
+&bengal_snd {
+	qcom,adsp-critical-pc;
+};
