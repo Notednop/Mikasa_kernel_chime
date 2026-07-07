@@ -327,8 +327,7 @@ static int snd_usb_create_streams(struct snd_usb_audio *chip, int ctrlif)
 			 protocol);
 		/* fall through */
 
-	case UAC_VERSION_2:
-	case UAC_VERSION_1: {
+		case UAC_VERSION_1: {
 		struct uac1_ac_header_descriptor *h1;
 		int rest_bytes;
 
