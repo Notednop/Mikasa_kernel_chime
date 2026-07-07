@@ -21,6 +21,7 @@
 #include "bengal-lpi.dtsi"
 
 &q6core {
+	qcom,lpass-current-voltage-floor = <1>;
 	cdc_dmic01_gpios: cdc_dmic01_pinctrl {
 		compatible = "qcom,msm-cdc-pinctrl";
 		pinctrl-names = "aud_active", "aud_sleep";
@@ -71,6 +72,7 @@
 };
 
 &q6core {
+	qcom,lpass-current-voltage-floor = <1>;
 	bolero: bolero-cdc {
 		compatible = "qcom,bolero-codec";
 		clock-names = "lpass_audio_hw_vote";
@@ -93,6 +95,7 @@
 };
 
 &q6core {
+	qcom,lpass-current-voltage-floor = <1>;
 	bengal_snd: sound {
 		compatible = "qcom,bengal-asoc-snd";
 		qcom,mi2s-audio-intf = <0>;
