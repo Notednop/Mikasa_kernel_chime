@@ -30,7 +30,7 @@ echo  $P
 
 # change DEFCONFIG to you are defconfig name or device codename
 
-DEFCONFIG="/vendor/chime_defconfig"
+DEFCONFIG="/vendor/mikasa_defconfig"
 
 TC_DIR="/workspaces/anothernop"
 
@@ -39,7 +39,7 @@ export PATH="$TC_DIR/bin:$PATH"
 # you can set you name or host name(optional)
 
 export KBUILD_BUILD_USER=Nop
-export KBUILD_BUILD_HOST=Notedphy
+export KBUILD_BUILD_HOST=AnothernopV
 
 mkdir -p out
 make O=out ARCH=arm64 $DEFCONFIG
