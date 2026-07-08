@@ -478,6 +478,11 @@ static int qcom_cpufreq_hw_read_lut(struct platform_device *pdev,
 			c->table[i].frequency = c->cpu_hw_rate / 1000;
 
 		cur_freq = c->table[i].frequency;
+		if (i == (lut_max_entries - 1)) {
+			c->table[i].frequency = 3000000;
+			cur_freq = 3000000;
+			writel_relaxed(i, base_volt + i * lut_row_size);
+		}
 
 		dev_dbg(dev, "index=%d freq=%d, core_count %d\n",
 			i, c->table[i].frequency, core_count);
