@@ -30,7 +30,7 @@ echo  $P
 
 # change DEFCONFIG to you are defconfig name or device codename
 
-DEFCONFIG="/vendor/chime_defconfig"
+DEFCONFIG="/vendor/mikasa_defconfig"
 
 TC_DIR="/workspaces/anothernop"
 
