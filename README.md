@@ -4,16 +4,6 @@
 
 ---
 
-## 🚀 Key Features
-
-* **Upstream & Clean:** Built on a stable base with custom optimizations to ensure the best compatibility across various Custom ROMs.
-* **Audio Optimization:** Full support for high-resolution audio routing and sound quality enhancements through optimized audio driver subsystems.
-* **Performance & Battery Management:** Fine-tuned CPU governors and power profiles to deliver smooth multitasking without sacrificing battery life.
-* **KernelSU / Magisk Support:** Ready for modern rooting methods and fully compatible with various system management modules.
-* **Network & I/O Enhancements:** Optimized TCP congestion control and I/O drivers for lower latency during gaming or streaming.
-
----
-
 ## 🛠️ Build Details & Specifications
 
 | Component | Specification |
