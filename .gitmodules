@@ -8,3 +8,6 @@
 	path = drivers/rtl8188eus
 	url = https://github.com/aircrack-ng/rtl8188eus
 	branch = v5.3.9
+[submodule "drivers/net/wireless/rtl8812au"]
+	path = drivers/net/wireless/rtl8812au
+	url = https://github.com/aircrack-ng/rtl8812au.git

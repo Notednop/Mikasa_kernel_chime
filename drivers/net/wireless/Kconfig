@@ -17,6 +17,8 @@ menuconfig WLAN
 
 if WLAN
 
+source "drivers/net/wireless/rtl8812au/Kconfig"
+
 config WIRELESS_WDS
 	bool "mac80211-based legacy WDS support" if EXPERT
 	help
